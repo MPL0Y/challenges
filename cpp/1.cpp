@@ -1,11 +1,11 @@
 int square(int num)
 {
-    return 0;
+    return num*num;
 }
 
 int cube(int num)
 {
-    return 0;
+    return num*num*num;
 }
 
 int reverse(string s)
