@@ -10,13 +10,13 @@ def square(number):
 # Should return the cube of number
 
 def cube(number):
-    pass
+    return number**3
 
 # Complete the function reverse
 # Should return the reverse of string
 
 def reverse(string):
-    pass
+    return string[::-1]
 
 # Complete the function sum_list
 # Should return the sum of list
