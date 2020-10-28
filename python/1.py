@@ -4,7 +4,7 @@ from time import sleep
 # Should return the square of number
 
 def square(number):
-    return number**2
+    pass
 
 # Complete the function cube
 # Should return the cube of number
