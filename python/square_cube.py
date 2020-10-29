@@ -1,7 +1,7 @@
-num = input('Enter first number: ')
+num = float(input('Enter first number: '))
 
-square = float(num) * float(num)
-cube = float(num) * float(num) * float(num)
+square = num * num
+cube = num * num * num
 
 print('The square of {0} is {1}'.format(num, square))
 print('The cube of {0} is {1}'.format(num, cube))
