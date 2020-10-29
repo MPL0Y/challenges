@@ -22,6 +22,7 @@ def reverse(string):
 # Should return the sum of list
 
 def sum_list(list):
+    return sum(list)
     pass
 
 
@@ -45,7 +46,7 @@ if __name__ == "__main__":
     sleep(1.5)
     print(f"Test case 6: {check(reverse(''), '')} [reverse()]")
     sleep(1.5)
-    print(f"Test case 7: {check(sum_list([i for i in range(4973)]), 12367851)} [sum_list()]")
+    print(f"Test case 7: {check(sum_list([i for i in range(4973)]), 12362878)} [sum_list()]")
     sleep(1.5)
     print(f"Test case 8: {check(sum_list([]), 0)} [sum_list()]")
     sleep(1.5)
