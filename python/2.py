@@ -4,6 +4,7 @@ from time import sleep
 # Should return True if string is a palindrome, else False
 
 def is_palindrome(string):
+    return string==string[::-1]
     pass
 
 # Complete the function count_unique()
