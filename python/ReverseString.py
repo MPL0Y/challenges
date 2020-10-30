@@ -1,3 +1,2 @@
 val = input("Enter String: ") 
-y = val[::-1]
-print (y)
+print (val[::-1])
